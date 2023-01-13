@@ -6,10 +6,12 @@ import App from './App';
 import NotFound from './pages/NotFound';
 import Single from './components/Single'
 import AboutPage from './pages/AboutPage';
-import Contact from './pages/ContactPage'
+import Contact from './pages/ContactPage';
+import LoginPage from './pages/LoginPage'
 
 import Header from './components/Header'; 
 import Footer from './components/Footer'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +23,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path='/single/:name' element={<Single />} />
         <Route path='*' element={<NotFound />} />      
       </Routes>
