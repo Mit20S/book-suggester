@@ -37,10 +37,15 @@ header{
   
 .rightNav li{
     padding: 8px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.rightNav li:hover{
+.rightNav li a{
+    color:white;
+    text-decoration: none;
+}
+
+.rightNav li a:hover{
     color: #0f2839;
 }
   

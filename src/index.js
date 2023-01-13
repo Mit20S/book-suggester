@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import App from './App';
 import NotFound from './pages/NotFound';
 import Single from './components/Single'
+import AboutPage from './pages/AboutPage';
 
 import Header from './components/Header'; 
 import Footer from './components/Footer'
@@ -17,6 +18,7 @@ root.render(
       
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path='/single/:name' element={<Single />} />
         <Route path='*' element={<NotFound />} />      
       </Routes>

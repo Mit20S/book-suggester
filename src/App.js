@@ -1,11 +1,12 @@
 import styles from "./styles/home.module.css";
+import {Link} from "react-router-dom"
 
 function App() {
 	return (
 		<>
 		<section className={styles.home}>
 			<h1>Find your Favourite Books at one place!</h1>
-			<a className={styles.link_search}>Search Now</a>
+			<Link className={styles.link_search} to="/books">Search Now</Link>
 		</section>
 
 		<section className={styles.section_1}>
