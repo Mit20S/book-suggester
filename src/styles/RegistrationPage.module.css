@@ -1,0 +1,53 @@
+.background{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url(https://relevantmagazine.com/wp-content/uploads/2022/04/BannedBooks.png);
+   
+    /* text-align: start; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: auto;
+    text-align: center; 
+    padding: 150px;
+    padding-bottom: 200px;
+}
+
+.input{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+.gender{
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.link{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #cd7f32;
+}
+
+.submit{
+    color: white;
+    background-color: #cd7f32;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit:hover{
+    color: #cd7f32;
+    background-color: white;
+}

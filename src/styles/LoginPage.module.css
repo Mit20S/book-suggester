@@ -10,7 +10,7 @@
     padding: 85px;
 }
 
-p, span, link{
+.info{
     margin: 0;
     color: white;
     font-size: 30px;

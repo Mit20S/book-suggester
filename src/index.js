@@ -11,6 +11,7 @@ import LoginPage from './pages/LoginPage'
 
 import Header from './components/Header'; 
 import Footer from './components/Footer'
+import Registration from './pages/RegistrationPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +25,7 @@ root.render(
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path='/single/:name' element={<Single />} />
+        <Route path="/register" element={<Registration />} />
         <Route path='*' element={<NotFound />} />      
       </Routes>
 

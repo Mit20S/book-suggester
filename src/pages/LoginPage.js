@@ -9,12 +9,12 @@ function Login() {
       <div className={styles.background}>
         <div className={styles.container}>
 
-          <p>Your Email</p>
+          <p className={styles.info}>Your Email</p>
           <br></br>
           <input type="email" className={styles.text} placeholder="e.g. johhny@gmail.com " />
           <br></br><br></br><br></br>
           
-          <p>Your Password</p>
+          <p className={styles.info}>Your Password</p>
           <br></br>
           <input type="password" className={styles.text} placeholder="e.g. password123" />
 
